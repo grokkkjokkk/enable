@@ -2,6 +2,8 @@ title: Enable
 description: A sole-trader research and development venture dedicated to technology innovation
 baseurl: "/enable"
 url: "https://grokkkjokkk.github.io"
-markdown: kramdown
+
+# Force plain HTML – no theme, no Jekyll processing of your index.html
 theme: null
 plugins: []
+markdown: kramdown
