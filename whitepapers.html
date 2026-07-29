@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Papers | ENABLE NZ enable</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        grok: {
+                            bg: '#0a0a0a',
+                            surface: '#111111',
+                            elevated: '#1a1a1a',
+                            border: '#2a2a2a',
+                            muted: '#a1a1aa',
+                            accent: '#8b5cf6',
+                            accentHover: '#a78bfa',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #0a0a0a; }
+        ::selection { background: rgba(139, 92, 246, 0.35); color: #fff; }
+    </style>
+</head>
+<body class="bg-grok-bg text-zinc-100 font-sans antialiased min-h-screen flex flex-col">
+
+    <!-- Navigation -->
+    <header class="sticky top-0 z-50 bg-grok-bg/90 backdrop-blur-md border-b border-grok-border">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
+            <a href="index.html" class="font-semibold text-sm tracking-tight text-white hover:text-zinc-200 transition">
+                <span class="uppercase tracking-wider">ENABLE</span>
+                <span class="text-zinc-400 mx-1">NZ</span>
+                <span class="font-normal lowercase tracking-normal text-zinc-300">enable</span>
+            </a>
+            <nav class="flex items-center gap-6 text-sm text-zinc-400">
+                <a href="index.html#about" class="hover:text-white transition">About</a>
+                <a href="index.html#focus" class="hover:text-white transition">Focus</a>
+                <a href="index.html#approach" class="hover:text-white transition">Approach</a>
+                <a href="whitepapers.html" class="text-white font-medium">White Papers</a>
+                <a href="entity.html" class="hover:text-white transition">Entity</a>
+                <a href="index.html#contact" class="text-grok-accent hover:text-grok-accentHover transition font-medium">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <main class="flex-1 max-w-5xl mx-auto px-4 sm:px-6 py-16 w-full">
+        <div class="mb-12">
+            <p class="text-xs font-medium tracking-widest uppercase text-grok-accent mb-3">Publications</p>
+            <h1 class="text-3xl sm:text-4xl font-semibold tracking-tight text-white mb-4">White Papers</h1>
+            <p class="text-zinc-400 max-w-2xl leading-relaxed">
+                Technical notes, concept explorations, and working papers arising from small-scale R&amp;D in physics, electrical engineering, and energy systems. Documents prioritise clarity, grounding in established principles, and practical insight.
+            </p>
+        </div>
+
+        <div class="space-y-4">
+            <div class="border border-dashed border-grok-border rounded-xl p-10 text-center">
+                <p class="text-zinc-500 text-sm mb-2">No papers published yet</p>
+                <p class="text-zinc-600 text-xs max-w-sm mx-auto">
+                    Working papers and technical notes will appear here as they are released. Check back or get in touch for updates.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-grok-border py-8 mt-auto">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-zinc-500">
+            <p>© 2026 ENABLE NZ enable · Sole Trader</p>
+            <div class="flex gap-6">
+                <a href="index.html" class="hover:text-zinc-300 transition">Home</a>
+                <a href="whitepapers.html" class="hover:text-zinc-300 transition">White Papers</a>
+                <a href="entity.html" class="hover:text-zinc-300 transition">Entity</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
